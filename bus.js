@@ -6,8 +6,8 @@ import StyleSheetValidation from 'react-native/Libraries/StyleSheet/StyleSheetVa
 //setInterval(roate132_1 , 25000);
 
 const getAuthorizationHeader = function() {
-	var AppID = 'e05be185a29147f7b37c4343bedae576';
-	var AppKey = '1BySzX0HVXNpZgE-4znpiKBW8TE';
+	var AppID = '';
+	var AppKey = '';
 	var GMTString = new Date().toGMTString();
 	var ShaObj = new jsSHA('SHA-1', 'TEXT');
 	ShaObj.setHMACKey(AppKey, 'TEXT');
